@@ -1,7 +1,9 @@
-import { ScrollScene, UseCanvas } from "@14islands/r3f-scroll-rig";
+import { UseCanvas } from "@14islands/r3f-scroll-rig";
 import { StickyScrollScene } from "@14islands/r3f-scroll-rig/powerups";
 import React, { useRef } from "react";
+
 import Logo from "./Elements/Logo";
+import Strips from "./Elements/Strips";
 
 const Gallery = () => {
     const track = useRef(null);
@@ -16,6 +18,7 @@ const Gallery = () => {
                         return (
                             <>
                                 <Logo />
+                                <Strips />
                             </>
                         );
                     }}
