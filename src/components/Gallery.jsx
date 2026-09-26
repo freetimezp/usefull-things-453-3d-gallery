@@ -39,7 +39,7 @@ export default function Gallery() {
         <div ref={pageRef} className="gallery-ui">
             <header className="gallery-nav">
                 <a className="gallery-brand" href="/">
-                    F / ARCHIVE
+                    P / ARCHIVE
                 </a>
 
                 <div className="gallery-nav-center">
@@ -69,7 +69,7 @@ export default function Gallery() {
                         <span />
                     </div>
 
-                    <h1>FORM</h1>
+                    <h1>PHOTO</h1>
 
                     <p>THE ART OF SEEING</p>
                 </div>
@@ -103,7 +103,7 @@ export default function Gallery() {
             </section>
 
             <footer className="gallery-footer">
-                <span>FORM / ARCHIVE</span>
+                <span>PHOTO / ARCHIVE</span>
                 <span>ALL RIGHTS RESERVED</span>
             </footer>
         </div>

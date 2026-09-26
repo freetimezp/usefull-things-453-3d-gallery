@@ -199,7 +199,7 @@ export default class WebGLGallery {
 
         const ring = new THREE.Mesh(geometry, material);
 
-        ring.rotation.x = Math.PI / 2;
+        ring.rotation.x = Math.PI / 2.1;
 
         this.center.add(ring);
 
